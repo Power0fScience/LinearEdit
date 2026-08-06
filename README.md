@@ -1,11 +1,10 @@
 # LinearEdit
 A lightweight terminal-based text editor written in C++, featuring raw keyboard input, cursor navigation, file I/O, and a 1D-to-2D text rendering model using POSIX terminal APIs.
 
-# TermEdit
 
 A lightweight terminal-based text editor written in C++ from scratch.
 
-TermEdit is a minimalist text editor that demonstrates low-level terminal programming, real-time keyboard input handling, cursor navigation, text manipulation, and file operations without relying on external GUI frameworks or editor libraries.
+LinearEdit is a minimalist text editor that demonstrates low-level terminal programming, real-time keyboard input handling, cursor navigation, text manipulation, and file operations without relying on external GUI frameworks or editor libraries.
 
 ## Features
 
@@ -37,13 +36,13 @@ This approach keeps the text buffer simple while allowing intuitive cursor movem
 ## Build
 
 ```bash
-g++ -std=c++17 main.cpp -o termedit
+g++ -std=c++17 main.cpp -o LinearEdit
 ```
 
 ## Run
 
 ```bash
-./termedit
+./LinearEdit
 ```
 
 The editor loads `file.txt` from the current directory.
